@@ -1,0 +1,84 @@
+:root {
+    --red: #9e0b0F;
+    --bold-white: #c7c7c7;
+    --input-field: #f7f7f7;
+    --black: black;
+
+    /* Medidas importantes */
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex; /* Cambiado a flex */
+    align-items: center; /* Centrando verticalmente */
+    justify-content: center; /* Centrando horizontalmente */
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px; /* Añadido px */
+    justify-items: center; /* Asegura que el contenido en la cuadrícula esté centrado */
+    margin-bottom: 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.uao-logo {
+    width: 150px;
+    margin-bottom: 50px;
+    display: block; /* Asegúrate de que la imagen esté visible */
+    margin: 0 auto; /* Centra la imagen horizontalmente si se usa display: block */
+}
+
+.title {
+    font-size: var(--lg);
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: var(--black);
+    font-size: var(--md);
+    font-weight: 300;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.label{
+    font-size:  var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{
+    background-color: var(--input-field);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.primary-button{
+    background-color: var(--red);
+    border-radius: 8px;
+    border: none;
+    color: var(--bold-white);
+    width: 100%;
+    width: 40px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+}
