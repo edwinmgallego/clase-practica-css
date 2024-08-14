@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombardeo de peru simulator</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #fish-gif {
+            display: none;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: greenyellow;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1200px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            body {
+                background-color: cyan;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>LA MEJOR WEB DE LA HISTORIA</h1>
+    <p>Si pulsas el boton de abajo bombardean peru</p>
+    <button onclick="mostrarGif()">Mostrar Pez</button>
+    <div id="fish-gif">
+        <img src="D:/Tarea/fish-gif.gif" alt="Pez">
+    </div>
+
+    <script>
+        function mostrarGif() {
+            document.getElementById('fish-gif').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
