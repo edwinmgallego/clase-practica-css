@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Estilos/styles.css">
 </head>
 <body>
-    <h1> Juan :D </h1>
+    <div class="login">
+        <div class = "container">
+            <img class="uao-logo" src="https://pattern.uao.edu.co/images/nuevologo.png" alt="Logo-Uao">
+            <h1 class = "title">Ingresa tus Datos</h1>
+            <p class = "subtitle">Bienvenido a la UAO</p>
+            <form action="/" class = "form">
+                <label for="email" class = "label">Correo Electrónico</label>
+                <input type="text" id="email" placeholder="user@uao.edu.co" class="input input-email">
+                <br>
+                <label for="password" class="label">Contraseña</label>
+                <input type="text" id="password" placeholder="********" class="input input-password">
+                <button id="enviar" class="primary-button login-button">Enviar</button>
+             </form>
+        </div>
+    </div>
 </body>
 </html>
