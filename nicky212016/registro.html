@@ -14,17 +14,22 @@
         <div class = "container">
             <img src="https://www.uao.edu.co/wp-content/uploads/2024/01/version-color-1-1536x864.png" alt="uao-logo" class = "logo-uao">
             <h1 class = "title">Ingresa tus credenciales</h1>
-            <p class="subtitle">Bienvenido a la Universidad Autónoma de Occidente</p>
+            <p class="subtitle">Escribe tus datos para completar el registro con éxito</p>
             <form action = "/" class = "form">
+                <label for = "name" class="label">Nombre</label>
+                <input type="text" id="name" placeholder="Nombre" class="input input-name">
+
+                <label for = "last name" class="label">Apellidos</label>
+                <input type="text" id="last-name" placeholder="Apellidos" class="input input-lastname">
+
                 <label for = "email" class="label">Correo electrónico</label>
                 <input type="text" id="email" placeholder="user@uao.edu.co" class="input input-email">
+
                 <label for="password" class = "label">Contraseña</label>
                 <input type="password" id="password" placeholder="********" class="input input-password">
-                <button class="primary-button login-button">Enviar</button>
-                <a href="registro.html" class="primary-button2 login-button">Registrarse</a>
-
+                <a href="index.html" class="primary-button2 login-button">Registrarse</a>
+                
             </form>
-            <a href="passwordChanger.html" class="subtitle">¿Olvidaste tu contraseña?</a>
         </div>
     </div>
 </body>
