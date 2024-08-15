@@ -83,6 +83,12 @@ body{
     margin-top: 14px;
     margin-bottom: 20px;
 }
+.hyperLink{
+    color: var(--black);
+    font-size: var(--sm);
+    margin-top: 8px;
+    font-style: italic;
+}
 
 @media (max-width: 640px){
     .UaoLogo{
