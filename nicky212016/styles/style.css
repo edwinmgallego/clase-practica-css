@@ -105,8 +105,11 @@ body{
     font-weight: bold;
     text-decoration: none; /* Para quitar el subrayado del enlace */
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
     
 }
 
