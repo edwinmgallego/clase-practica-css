@@ -76,9 +76,17 @@ body{
     font-size: var(--md);
     font-weight: bold;
 }
+
 .login-button{
     margin-top: 14px;
     margin-bottom: 20px;
+}
+
+.hypertext{
+    font-size: var(--md);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media (max-width:640px){

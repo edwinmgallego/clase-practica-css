@@ -7,23 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./Estilos/styleLogin.css">
+<link rel="stylesheet" href="./Estilos/styleCambiar.css">
 </head>
 <body>
     <div class="login">
         <div class = "container">
             <img class="uao-logo" src="https://pattern.uao.edu.co/images/nuevologo.png" alt="Logo-Uao">
-            <h1 class = "title">Bienvenido a la UAO</h1>
-            <p class = "subtitle">Ingresa tus Datos</p>
+            <h1 class = "title">Rellene los siguientes campos</h1>
             <form action="/" class = "form">
-                <label for="email" class = "label">Correo Electrónico</label>
-                <input type="text" id="email" placeholder="user@uao.edu.co" class="input input-email">
+                <label for="lastPassword" class = "label">Contraseña Anterior</label>
+                <input type="text" id="lastPassword" placeholder="********" class="input input-password">
                 <br>
-                <label for="password" class="label">Contraseña</label>
+                <label for="password" class="label">Contraseña Nueva</label>
                 <input type="text" id="password" placeholder="********" class="input input-password">
-                <button id="enviar" class="primary-button login-button">Enviar</button>
-                <a href="recuperar.html" class = "hypertext">¿Olvidaste tu Contraseña?</a>
-                <a href="registrar.html" class = "hypertext">¿No estas registrado?</a>
+                <label for="password" class="label">Confirme la Contraseña Nueva</label>
+                <input type="text" id="password" placeholder="********" class="input input-password">
+                <button id="enviar" class="primary-button login-button">Cambiar</button>
+                <a href="index.html" class = "hypertext">Pagina Principal</a>
              </form>
         </div>
     </div>
