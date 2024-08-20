@@ -3,59 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bombardeo de peru simulator</title>
-    <style>
-        body {
-            font-family: "Comic Sans MS", "Comic Sans";
-            text-align: center;
-            transition: background-color 0.5s;
-        }
-
-        h1 {
-            margin-top: 20px;
-        }
-
-        p {
-            margin: 20px;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        #fish-gif {
-            display: none;
-            margin-top: 20px;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                background-color: greenyellow;
-            }
-        }
-
-        @media (min-width: 601px) and (max-width: 1200px) {
-            body {
-                background-color: red;
-            }
-        }
-
-        @media (min-width: 1201px) {
-            body {
-                background-color: cyan;
-            }
-        }
-    </style>
+    <title>Bombardeo de Perú Simulator</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>LA MEJOR WEB DE LA HISTORIA</h1>
-    <p>Si pulsas el boton de abajo bombardean peru</p>
-    <button onclick="mostrarGif()">Mostrar Pez</button>
-    <div id="fish-gif">
-        <img src="D:/Tarea/fish-gif.gif" alt="Pez">
-    </div>
+
+</div>
+<h1>LA MEJOR WEB DE LA HISTORIA</h1>
+<p>Si pulsas el botón de abajo bombardean Perú</p>
+<button onclick="mostrarGif()">Mostrar Pez</button>
+<div id="fish-gif">
+    <img src="C:\Users\david.collazos\Documents\Tarea2\fish-gif.gif" alt="Pez">
+</div>
+
+    <div class="login">
+        <div class="container">
+            <img src="https://static.wikia.nocookie.net/ficcion-sin-limites/images/f/fd/JA7LIhfq_400x400.jpg/revision/latest/smart/width/250/height/250?cb=20230401203458&path-prefix=es">
+            <h1 class="title">Ingresa tus datos</h1>
+            <p class="subtitle">Bienvenido a la Universidad Autónoma de Occidente</p>
+            <form action="/" class="form">
+                <label for="email" class="label">Correo Electrónico</label>
+                <input type="text" id="email" placeholder="user@uao.edu.co" class="input input-email">
+                <label for="password" class="label">Contraseña</label>
+                <input type="password" id="password" placeholder="**********" class="input input-password">
+                <input type="submit" value="Enviar" class="primary-button login-button">
+            </form>
+            <a href="register.html" class="link">¿No tienes cuenta? Regístrate</a>
+            <a href="forgot-password.html" class="link">¿Olvidaste tu contraseña?</a>
+        </div>
+    
 
     <script>
         function mostrarGif() {
@@ -64,3 +40,5 @@
     </script>
 </body>
 </html>
+
+
